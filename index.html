@@ -2,23 +2,30 @@
  * @Author: duxinyues weiyy26445@yunrong.cn
  * @Date: 2023-09-14 12:32:51
  * @LastEditors: duxinyues weiyy26445@yunrong.cn
- * @LastEditTime: 2023-09-16 22:40:23
+ * @LastEditTime: 2023-09-18 12:41:08
  * @FilePath: /vue-h5/index.html
  * @Description: 
  * Copyright (c) 2023 by ${duxinyues} email: ${weiyy26445@yunrong.cn}, All Rights Reserved.
 -->
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,
-    maximum-scale=1.0, user-scalable=no" />
-    <title>Vite + Vue</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
 
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-scale=1.0, user-scalable=no" />
+  <title>Vite + Vue</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+  <script>
+    document.addEventListener("touchstart", function (event) {
+      console.log(event)
+    })
+  </script>
+</body>
+
 </html>
